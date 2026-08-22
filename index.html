@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deepak Kumar Sahoo | Project Manager & Fintech Specialist</title>
+    <meta name="description" content="Certified Project Manager with 6+ years of experience in Fintech, Digital Transformation, and SaaS/On-premise solutions.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/framer-motion@10.16.4/dist/framer-motion.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #050505; color: #e5e5e5; }
+        .serif { font-family: 'Playfair Display', serif; }
+        .text-gradient { background: linear-gradient(to right, #fff, #a1a1aa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .nav-blur { background: rgba(5, 5, 5, 0.8); backdrop-filter: blur(12px); border-bottom: 1px solid rgba(255,255,255,0.1); }
+        .experience-card:hover .dot { transform: scale(1.5); background-color: #3b82f6; }
+        .timeline-line { background: linear-gradient(to bottom, #3b82f6 0%, #18181b 100%); }
+        @keyframes float { 0% { transform: translateY(0px); } 50% { transform: translateY(-10px); } 100% { transform: translateY(0px); } }
+        .float { animation: float 6s ease-in-out infinite; }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 nav-blur">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <span class="font-semibold tracking-tighter text-xl">D. SAHOO</span>
+            <div class="hidden md:flex gap-10 text-sm font-medium tracking-widest uppercase text-zinc-400">
+                <a href="#about" class="hover:text-white transition-colors">About</a>
+                <a href="#experience" class="hover:text-white transition-colors">Experience</a>
+                <a href="#skills" class="hover:text-white transition-colors">Skills</a>
+                <a href="#certifications" class="hover:text-white transition-colors">Certifications</a>
+            </div>
+            <a href="mailto:deepaksahooofficial@gmail.com" class="px-5 py-2 border border-zinc-700 hover:bg-white hover:text-black transition-all duration-300 text-sm font-medium uppercase tracking-wider">
+                Get in Touch
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex flex-col justify-center px-6 pt-20 relative overflow-hidden">
+        <div class="absolute top-1/4 -right-20 w-96 h-96 bg-blue-600/10 rounded-full blur-[120px]"></div>
+        <div class="max-w-7xl mx-auto w-full relative z-10">
+            <p class="text-blue-500 font-medium tracking-[0.3em] uppercase mb-6 animate-pulse">Certified Project Manager</p>
+            <h1 class="text-6xl md:text-9xl font-bold tracking-tighter mb-8 text-gradient">
+                Deepak Kumar <br> Sahoo
+            </h1>
+            <div class="max-w-2xl">
+                <p class="text-xl md:text-2xl text-zinc-400 leading-relaxed font-light mb-12">
+                    Delivering <span class="text-white">enterprise fintech solutions</span> and digital transformation for 6+ years. Bridging the gap between complex engineering and strategic business goals.
+                </p>
+                <div class="flex flex-wrap gap-6">
+                    <a href="#experience" class="bg-white text-black px-8 py-4 font-semibold hover:bg-zinc-200 transition-colors">View Experience</a>
+                    <a href="https://www.linkedin.com/in/deepak-sahoo-profile/" target="_blank" class="flex items-center gap-2 text-white border-b border-zinc-700 pb-1 hover:border-white transition-all">
+                        LinkedIn Profile <i data-lucide="external-link" class="w-4 h-4"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce">
+            <i data-lucide="chevron-down" class="text-zinc-500"></i>
+        </div>
+    </section>
+
+    <!-- About / Metrics Section -->
+    <section id="about" class="py-32 bg-zinc-950">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-20 items-start">
+                <div>
+                    <h2 class="serif text-4xl italic mb-8 italic">The Narrative</h2>
+                    <p class="text-zinc-400 text-lg leading-relaxed mb-6">
+                        Expert in managing end-to-end delivery of SaaS and on-premise solutions with a focus on budget compliance, stakeholder management, and cross-functional leadership.
+                    </p>
+                    <p class="text-zinc-400 text-lg leading-relaxed mb-10">
+                        Based in India, I specialize in <span class="text-white">Banking and NBFC lending solutions</span>, navigating the complexities of regulatory compliance and high-scale system integrations.
+                    </p>
+                    <div class="grid grid-cols-2 gap-8 border-t border-zinc-800 pt-10">
+                        <div>
+                            <p class="text-3xl font-bold text-white">6+</p>
+                            <p class="text-zinc-500 text-sm uppercase tracking-widest mt-1">Years Experience</p>
+                        </div>
+                        <div>
+                            <p class="text-3xl font-bold text-white">30%</p>
+                            <p class="text-zinc-500 text-sm uppercase tracking-widest mt-1">Risk Reduction</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative group">
+                    <div class="absolute inset-0 bg-blue-500/5 group-hover:bg-blue-500/10 transition-colors"></div>
+                    <div class="border border-zinc-800 p-12 relative">
+                        <i data-lucide="quote" class="text-blue-500 mb-6 w-10 h-10"></i>
+                        <p class="text-2xl text-zinc-300 leading-relaxed italic">
+                            "Adept at managing full lifecycle delivery across diverse environments, ensuring quality and client satisfaction through process optimization."
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced Experience Section -->
+    <section id="experience" class="py-32 bg-[#050505] text-zinc-300">
+        <div class="max-w-7xl mx-auto px-6">
+            
+            <!-- Section Header -->
+            <div class="mb-32">
+                <h2 class="text-xs uppercase tracking-[0.4em] text-blue-500 font-semibold mb-4">Professional Narrative</h2>
+                <h3 class="serif text-5xl md:text-7xl text-white italic">The Journey of Impact</h3>
+            </div>
+
+            <div class="space-y-40">
+                
+                <!-- Role 1: Craft Silicon -->
+                <div class="flex flex-col md:flex-row gap-12 md:gap-24">
+                    <!-- Left: Sticky Identifier -->
+                    <div class="md:w-1/3">
+                        <div class="md:sticky md:top-32 space-y-4">
+                            <span class="font-mono text-blue-500 text-sm tracking-tighter">01 / JAN 2025 — PRESENT</span>
+                            <h4 class="text-4xl font-bold text-white tracking-tighter">Craft Silicon Asia</h4>
+                            <p class="text-zinc-500 uppercase tracking-widest text-xs font-bold">Bengaluru • On-site</p>
+                            <div class="h-px w-20 bg-blue-500/50 mt-6"></div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Content -->
+                    <div class="md:w-2/3">
+                        <div class="mb-10">
+                            <h5 class="text-2xl font-semibold text-white mb-6">Project Manager — Fintech Rollouts</h5>
+                            <p class="text-lg text-zinc-400 leading-relaxed mb-8">
+                                Leading complex platform rollouts for <span class="text-white">Yes Bank</span> and <span class="text-white">IndusInd Bank</span>. Managing the intersection of SaaS and On-Premise lending architecture.
+                            </p>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div class="bg-zinc-900/50 border border-zinc-800 p-6">
+                                <p class="text-blue-500 text-xs font-bold uppercase mb-3">The Mandate</p>
+                                <p class="text-sm leading-relaxed">Overseeing full lifecycle delivery of lending systems, ensuring alignment between QA, DevOps, and banking regulatory requirements.</p>
+                            </div>
+                            <div class="bg-zinc-900/50 border border-zinc-800 p-6">
+                                <p class="text-emerald-500 text-xs font-bold uppercase mb-3">Key Impact</p>
+                                <p class="text-sm leading-relaxed font-semibold text-white">Reduced release risks by 30% through the implementation of pre-deployment checklists and rollback protocols.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Role 2: Twinline (Promoted View) -->
+                <div class="flex flex-col md:flex-row gap-12 md:gap-24">
+                    <div class="md:w-1/3">
+                        <div class="md:sticky md:top-32 space-y-4">
+                            <span class="font-mono text-zinc-500 text-sm tracking-tighter">02 / OCT 2021 — DEC 2024</span>
+                            <h4 class="text-4xl font-bold text-white tracking-tighter">Twinline Business Solutions</h4>
+                            <p class="text-zinc-500 uppercase tracking-widest text-xs font-bold">Gurugram • 3yr 2mo</p>
+                            <div class="h-px w-20 bg-zinc-800 mt-6"></div>
+                        </div>
+                    </div>
+
+                    <div class="md:w-2/3">
+                        <div class="space-y-16">
+                            <!-- Role Part A -->
+                            <div>
+                                <div class="flex items-center gap-3 mb-4">
+                                    <span class="px-2 py-1 bg-blue-500/10 text-blue-400 text-[10px] font-bold rounded">PROMOTED</span>
+                                    <h5 class="text-2xl font-semibold text-white">Project Manager</h5>
+                                </div>
+                                <p class="text-zinc-400 leading-relaxed mb-6">Successfully managed five enterprise projects within a five-month timeframe, establishing unified project goals across disparate stakeholders.</p>
+                                <div class="flex flex-wrap gap-4">
+                                    <span class="text-xs border border-zinc-700 px-3 py-1 rounded-full italic text-zinc-500">Resource Optimization</span>
+                                    <span class="text-xs border border-zinc-700 px-3 py-1 rounded-full italic text-zinc-500">Stakeholder Mgmt</span>
+                                </div>
+                            </div>
+
+                            <!-- Role Part B -->
+                            <div class="border-l-2 border-zinc-800 pl-8 relative">
+                                <div class="absolute -left-[9px] top-0 w-4 h-4 bg-[#050505] border-2 border-zinc-700 rounded-full"></div>
+                                <h5 class="text-xl font-semibold text-zinc-400 mb-4">Assistant Project Manager</h5>
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                                    <div>
+                                        <p class="text-4xl font-bold text-white mb-2 italic">90%</p>
+                                        <p class="text-xs uppercase text-zinc-500 tracking-widest">Efficiency Boost in Jira Sync</p>
+                                    </div>
+                                    <div>
+                                        <p class="text-sm text-zinc-400">Developed a custom Learning Management System (LMS) that slashed refresh training time for team members and partners.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Role 3: Midland -->
+                <div class="flex flex-col md:flex-row gap-12 md:gap-24">
+                    <div class="md:w-1/3">
+                        <div class="md:sticky md:top-32 space-y-4">
+                            <span class="font-mono text-zinc-500 text-sm tracking-tighter">03 / MAR 2020 — SEP 2021</span>
+                            <h4 class="text-4xl font-bold text-white tracking-tighter leading-tight">Midland <br>Microfin Ltd.</h4>
+                            <p class="text-zinc-500 uppercase tracking-widest text-xs font-bold">Jalandhar • 1yr 7mo</p>
+                            <div class="h-px w-20 bg-zinc-800 mt-6"></div>
+                        </div>
+                    </div>
+
+                    <div class="md:w-2/3">
+                        <h5 class="text-2xl font-semibold text-white mb-6">Senior Executive Credit Analyst</h5>
+                        <div class="space-y-8">
+                            <div class="group p-8 bg-zinc-900/30 border border-zinc-800 hover:border-blue-500/50 transition-all">
+                                <div class="flex justify-between items-start mb-4">
+                                    <h6 class="text-white font-bold text-lg">Operational Intelligence</h6>
+                                    <i data-lucide="bar-chart-big" class="text-zinc-700 group-hover:text-blue-500 transition-colors"></i>
+                                </div>
+                                <p class="text-zinc-400 text-sm leading-relaxed">
+                                    Identified a critical information gap between ops and backend teams. Developed a <span class="text-white">real-time dashboard</span> that reduced backend status inquiries by <span class="text-emerald-400 font-bold">70%</span>.
+                                </p>
+                            </div>
+
+                            <div class="group p-8 bg-zinc-900/30 border border-zinc-800 hover:border-blue-500/50 transition-all">
+                                <div class="flex justify-between items-start mb-4">
+                                    <h6 class="text-white font-bold text-lg">Process Automation</h6>
+                                    <i data-lucide="zap" class="text-zinc-700 group-hover:text-blue-500 transition-colors"></i>
+                                </div>
+                                <p class="text-zinc-400 text-sm leading-relaxed">
+                                    Devised an automated master dashboard solution with an auto-email system, saving each team member <span class="text-white font-bold">4 hours daily</span>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Grid -->
+    <section id="skills" class="py-32 bg-zinc-950">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-16 tracking-tighter">Core Competencies</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-1">
+                <!-- Management -->
+                <div class="bg-zinc-900 p-8 border border-zinc-800">
+                    <i data-lucide="layers" class="text-blue-500 mb-6"></i>
+                    <h4 class="font-bold mb-4 uppercase tracking-wider text-xs text-zinc-500">Project Governance</h4>
+                    <ul class="text-sm space-y-3 text-zinc-300 font-light">
+                        <li>Agile / Scrum</li>
+                        <li>End-to-End Delivery</li>
+                        <li>Budget Governance</li>
+                        <li>Risk Management</li>
+                        <li>Resource Allocation</li>
+                    </ul>
+                </div>
+                <!-- Technical -->
+                <div class="bg-zinc-900 p-8 border border-zinc-800">
+                    <i data-lucide="terminal" class="text-blue-500 mb-6"></i>
+                    <h4 class="font-bold mb-4 uppercase tracking-wider text-xs text-zinc-500">Technical Stack</h4>
+                    <ul class="text-sm space-y-3 text-zinc-300 font-light">
+                        <li>Full-Stack Development</li>
+                        <li>REST APIs</li>
+                        <li>SQL Databases</li>
+                        <li>Data Modeling</li>
+                        <li>Jira Administration</li>
+                    </ul>
+                </div>
+                <!-- BI -->
+                <div class="bg-zinc-900 p-8 border border-zinc-800">
+                    <i data-lucide="bar-chart-3" class="text-blue-500 mb-6"></i>
+                    <h4 class="font-bold mb-4 uppercase tracking-wider text-xs text-zinc-500">BI & Analytics</h4>
+                    <ul class="text-sm space-y-3 text-zinc-300 font-light">
+                        <li>Requirement Gathering</li>
+                        <li>Process Analysis</li>
+                        <li>Stakeholder Bridging</li>
+                        <li>Testing & Validation</li>
+                        <li>MIS Dashboards</li>
+                    </ul>
+                </div>
+                <!-- Domain -->
+                <div class="bg-zinc-900 p-8 border border-zinc-800">
+                    <i data-lucide="landmark" class="text-blue-500 mb-6"></i>
+                    <h4 class="font-bold mb-4 uppercase tracking-wider text-xs text-zinc-500">Lending Solutions</h4>
+                    <ul class="text-sm space-y-3 text-zinc-300 font-light">
+                        <li>Retail & Co-Lending</li>
+                        <li>Digital Lending</li>
+                        <li>MSME Loans</li>
+                        <li>Mortgages</li>
+                        <li>Regulatory Compliance</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education & Certs -->
+    <section id="certifications" class="py-32 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-20">
+                <div class="lg:col-span-1">
+                    <h2 class="text-4xl font-bold tracking-tighter mb-8">Education & <br>Certifications</h2>
+                    <p class="text-zinc-500 mb-10">Academic foundation and professional continuous learning across Design, AI, and Engineering.</p>
+                    <div class="space-y-8">
+                        <div>
+                            <p class="text-white font-bold">PGDM, Marketing</p>
+                            <p class="text-zinc-500 text-sm italic">Rourkela Institute of Management Studies (2018-2020)</p>
+                        </div>
+                        <div>
+                            <p class="text-white font-bold">Bachelor of Science, Physics</p>
+                            <p class="text-zinc-500 text-sm italic">University of Sambalpur, Odisha (2015-2018)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <div class="border border-zinc-800 p-6 hover:bg-zinc-900 transition-colors">
+                        <span class="text-[10px] uppercase tracking-[0.2em] text-blue-500 mb-2 block">Google</span>
+                        <p class="text-white font-medium">UX Design Professional</p>
+                    </div>
+                    <div class="border border-zinc-800 p-6 hover:bg-zinc-900 transition-colors">
+                        <span class="text-[10px] uppercase tracking-[0.2em] text-blue-500 mb-2 block">Meta</span>
+                        <p class="text-white font-medium">Professional Certificate: Back-End, Database, Front-End</p>
+                    </div>
+                    <div class="border border-zinc-800 p-6 hover:bg-zinc-900 transition-colors">
+                        <span class="text-[10px] uppercase tracking-[0.2em] text-blue-500 mb-2 block">Google Cloud</span>
+                        <p class="text-white font-medium">Introduction to Generative AI</p>
+                    </div>
+                    <div class="border border-zinc-800 p-6 hover:bg-zinc-900 transition-colors">
+                        <span class="text-[10px] uppercase tracking-[0.2em] text-blue-500 mb-2 block">Coursera</span>
+                        <p class="text-white font-medium">Google Project Management Certificate</p>
+                    </div>
+                    <div class="border border-zinc-800 p-6 hover:bg-zinc-900 transition-colors">
+                        <span class="text-[10px] uppercase tracking-[0.2em] text-blue-500 mb-2 block">CFI</span>
+                        <p class="text-white font-medium">Fundamentals of Credit</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer class="py-20 border-t border-zinc-900">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <h2 class="serif text-5xl md:text-7xl mb-12">Let's build the <br> <span class="italic">future of fintech.</span></h2>
+            <div class="flex flex-col md:flex-row items-center justify-center gap-12 mb-20">
+                <a href="mailto:deepaksahooofficial@gmail.com" class="text-2xl hover:text-blue-500 transition-colors">deepaksahooofficial@gmail.com</a>
+                <span class="text-zinc-800 hidden md:block">/</span>
+                <a href="#" class="text-2xl hover:text-blue-500 transition-colors">+91 8260973611</a>
+            </div>
+            <div class="flex justify-between items-center pt-10 border-t border-zinc-900 text-zinc-500 text-xs uppercase tracking-widest">
+                <p>© 2025 Deepak Kumar Sahoo</p>
+                <div class="flex gap-8">
+                    <a href="https://www.linkedin.com/in/deepak-sahoo-profile/" class="hover:text-white transition-colors">LinkedIn</a>
+                    <a href="#" class="hover:text-white transition-colors">Download PDF Resume</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+        
+        // Simple reveal animation on scroll
+        const observerOptions = { threshold: 0.1 };
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100', 'translate-y-0');
+                    entry.target.classList.remove('opacity-0', 'translate-y-10');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            section.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-y-10');
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
